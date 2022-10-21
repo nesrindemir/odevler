@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+public class Odev {
+
+public static void main(String [] args) {
+	
+	Scanner input = new Scanner(System.in);
+	
+	int mat,fiz,kim,tar,müz;
+	  System.out.println("Matematik puanınızı giriniz : ");
+	  mat = input.nextInt();
+	  System.out.println("Fizik puanınızı giriniz : ");
+	  fiz = input.nextInt();
+	  System.out.println("Kimya puanınızı giriniz : ");
+	  kim = input.nextInt();
+	  System.out.println("Tarih puanınızı giriniz : ");
+	  tar = input.nextInt();
+	  System.out.println("Müzik puanınızı giriniz : ");
+	  müz = input.nextInt();
+	 
+
+	  int toplam = (mat+fiz +kim+tar+müz);
+	  double sonuc=toplam/5.0;
+	  
+	  System.out.println("ortalamanız : "+sonuc);
+	  if (sonuc>60) {
+
+	  System.out.println("sınıfı geçtiniz");
+
+	  }else
+		  
+		  System.out.println("kaldınız");
+	
+	
+}	
+}
