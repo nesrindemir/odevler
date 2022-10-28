@@ -1,0 +1,35 @@
+package odev_1;
+import java.util.Scanner;
+public class ManavKasaProgrami {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	Scanner input = new Scanner (System.in);	
+	
+	double a_kilo,toplamTutar,armut,elma,domates,muz,patlıcan;
+	double e_kilo,d_kilo,m_kilo,p_kilo;
+	armut=2.14;
+	elma=3.67;
+	domates=1.11;
+	muz=0.95;
+	patlıcan=5;
+	
+	System.out.print("ARMUT KAÇ KİLO? :");
+	a_kilo=input.nextDouble();
+	System.out.print("ELMA KAÇ KİLO? :");
+	e_kilo=input.nextDouble();
+	System.out.print("DOMATES KAÇ KİLO? :");
+	d_kilo=input.nextDouble();
+	System.out.print("MUZ KAÇ KİLO? :");
+	m_kilo=input.nextDouble();
+	System.out.print("PATLICAN KAÇ KİLO? :");
+	p_kilo=input.nextDouble();
+	
+	toplamTutar=(a_kilo*armut)+(elma+e_kilo)+(d_kilo*domates)+(m_kilo*muz)+(p_kilo*patlıcan);
+		
+		System.out.println("Toplam tutar = "+toplamTutar);
+		
+	}
+
+}
