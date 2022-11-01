@@ -23,12 +23,8 @@ public static void main(String [] args) {
 	  double sonuc=toplam/5.0;
 	  
 	  System.out.println("ortalamanız : "+sonuc);
-	  if (sonuc>60) {
-
-	  System.out.println("sınıfı geçtiniz");
-
-	  }else
-		  
+	   System.out.print(sonuc > 60 ? "Basarili oldunuz" : "Basarisiz oldunuz");
+	   
 		  System.out.println("kaldınız");
 	
 	
