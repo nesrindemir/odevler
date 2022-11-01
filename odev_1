@@ -25,7 +25,7 @@ public static void main(String [] args) {
 	  System.out.println("ortalamanız : "+sonuc);
 	   System.out.print(sonuc > 60 ? "Basarili oldunuz" : "Basarisiz oldunuz");
 	   
-		  System.out.println("kaldınız");
+		
 	
 	
 }	
