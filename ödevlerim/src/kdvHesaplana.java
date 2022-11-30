@@ -6,12 +6,12 @@ public class kdvHesaplana{
 	
 	Scanner input = new Scanner(System.in);
 	
-	System.out.println("LÃ¼tfen Ã¼creti giriniz :");
+	System.out.println("Lütfen ücreti giriniz :");
 	
 	double  ucret,kdvliUcret,kdvsizUcret,kdv,kdvOran;
 	
 	ucret=input.nextDouble();
-	System.out.println("kdvsiz Ã¼cret :"+ucret);
+	System.out.println("kdvsiz ücret :"+ucret);
 
 	if(ucret<=1000) {
 		
@@ -28,7 +28,7 @@ public class kdvHesaplana{
 	
 	kdvliUcret= ucret+kdv;
 	
-	System.out.println("kdvli Ã¼cret :"+kdvliUcret);
+	System.out.println("kdvli ücret :"+kdvliUcret);
 	
 	
 	
