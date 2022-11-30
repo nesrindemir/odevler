@@ -6,30 +6,30 @@ public static void main(String [] args) {
 	
 	Scanner input = new Scanner(System.in);
 	
-	int mat,fiz,kim,tar,mï¿½z;
-	  System.out.println("Matematik puanï¿½nï¿½zï¿½ giriniz : ");
+	int mat,fiz,kim,tar,müz;
+	  System.out.println("Matematik puanýnýzý giriniz : ");
 	  mat = input.nextInt();
-	  System.out.println("Fizik puanï¿½nï¿½zï¿½ giriniz : ");
+	  System.out.println("Fizik puanýnýzý giriniz : ");
 	  fiz = input.nextInt();
-	  System.out.println("Kimya puanï¿½nï¿½zï¿½ giriniz : ");
+	  System.out.println("Kimya puanýnýzý giriniz : ");
 	  kim = input.nextInt();
-	  System.out.println("Tarih puanï¿½nï¿½zï¿½ giriniz : ");
+	  System.out.println("Tarih puanýnýzý giriniz : ");
 	  tar = input.nextInt();
-	  System.out.println("Mï¿½zik puanï¿½nï¿½zï¿½ giriniz : ");
-	  mï¿½z = input.nextInt();
+	  System.out.println("Müzik puanýnýzý giriniz : ");
+	  müz = input.nextInt();
 	 
 
-	  int toplam = (mat+fiz +kim+tar+mï¿½z);
+	  int toplam = (mat+fiz +kim+tar+müz);
 	  double sonuc=toplam/5.0;
 	  
-	  System.out.println("ortalamanï¿½z : "+sonuc);
+	  System.out.println("ortalamanýz : "+sonuc);
 	  if (sonuc>60) {
 
-	  System.out.println("sï¿½nï¿½fï¿½ geï¿½tiniz");
+	  System.out.println("sýnýfý geçtiniz");
 
 	  }else
 		  
-		  System.out.println("kaldï¿½nï¿½z");
+		  System.out.println("kaldýnýz");
 	
 	
 }	
