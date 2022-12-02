@@ -1,9 +1,9 @@
 
-package odev_1;
+
  
 import java.util.Scanner;
 
-public class UcgenAlanHesabý {
+public class UcgenAlanHesabï¿½ {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -12,12 +12,12 @@ public class UcgenAlanHesabý {
 		int a,b,c;
 		double alan;
 		
-		System.out.println("Lütfen üçgenin kenar uzunluklarýný giriniz :");
-		System.out.println("a kenarý :");
+		System.out.println("Lï¿½tfen ï¿½ï¿½genin kenar uzunluklarï¿½nï¿½ giriniz :");
+		System.out.println("a kenarï¿½ :");
 		a=input.nextInt();
-		System.out.println("b kenarý :");
+		System.out.println("b kenarï¿½ :");
 		b=input.nextInt();
-		System.out.println("c kenarý :");
+		System.out.println("c kenarï¿½ :");
 		c=input.nextInt();
 		
 		
@@ -28,7 +28,7 @@ public class UcgenAlanHesabý {
 		
 		alan=a*b*c;
 		
-		System.out.println("Üçgenin alaný= " +alan);
+		System.out.println("ï¿½ï¿½genin alanï¿½= " +alan);
 				
 				
 

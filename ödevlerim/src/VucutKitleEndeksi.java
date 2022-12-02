@@ -1,4 +1,4 @@
-package odev_1;
+
 import java.util.Scanner;
 public class VucutKitleEndeksi {
 
@@ -8,14 +8,14 @@ public class VucutKitleEndeksi {
 		
 		Scanner input= new Scanner(System.in);
 		
-		System.out.println("Lütfen metre cinsinden boyunuzu giriniz :");
+		System.out.println("Lï¿½tfen metre cinsinden boyunuzu giriniz :");
          boy=input.nextDouble();
-         System.out.println("Lütfen kg cinsinden kilonuzu giriniz :");
+         System.out.println("Lï¿½tfen kg cinsinden kilonuzu giriniz :");
          kilo=input.nextDouble();
          
          kitleEndeksi=kilo/(boy*boy);
          
-         System.out.println("Vucüt Kitle Endeksiniz :"+kitleEndeksi);
+         System.out.println("Vucï¿½t Kitle Endeksiniz :"+kitleEndeksi);
         		 
 	
 	

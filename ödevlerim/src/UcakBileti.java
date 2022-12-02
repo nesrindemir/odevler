@@ -1,33 +1,33 @@
-package odev_1;
+
 import java.util.Scanner;
 public class UcakBileti {
 
 	public static void main(String[] args) {
 
-//deðiþkenleri belirtelim.
+//deï¿½iï¿½kenleri belirtelim.
 		int mesafe,yas;
 		int yolculukTipi;
 		double normalTutar;
-		double ucretOarný=0.10;
-		double yasIdirimOrani,yasIndirimi,indirimliTutar,gdbIndirimi,toplamTutar,gdbOraný;
+		double ucretOarnï¿½=0.10;
+		double yasIdirimOrani,yasIndirimi,indirimliTutar,gdbIndirimi,toplamTutar,gdbOranï¿½;
 		
 		
 		Scanner  input= new Scanner(System.in);
 		
-		System.out.print("Mesafeyi km türünden giriniz : ");
+		System.out.print("Mesafeyi km tï¿½rï¿½nden giriniz : ");
 		
 		mesafe=input.nextInt();
 		
-		System.out.print("Yaþýnýzý giriniz : ");
+		System.out.print("Yaï¿½ï¿½nï¿½zï¿½ giriniz : ");
 		yas=input.nextInt();
 		
 		System.out.print("Yolculuk tipini giriniz :");
-		yolculukTipi=input.nextInt();//1 tekyön 2 gidiþ-dönüþ
+		yolculukTipi=input.nextInt();//1 tekyï¿½n 2 gidiï¿½-dï¿½nï¿½ï¿½
 		
 		
 		if((mesafe>0 && yas>0)&& (yolculukTipi==1 ||yolculukTipi==2)) {
 			
-		normalTutar=mesafe*ucretOarný;
+		normalTutar=mesafe*ucretOarnï¿½;
 		System.out.println("Normal Tutar :" + normalTutar );
 		
 		if(yas<=12) {
@@ -44,19 +44,19 @@ public class UcakBileti {
 		
 		if(yolculukTipi==2) {
 			
-			gdbOraný=0.20;
+			gdbOranï¿½=0.20;
 		}else {
 			
-			gdbOraný=0;
+			gdbOranï¿½=0;
 		}
 		
 		yasIndirimi=normalTutar*yasIdirimOrani;
-		System.out.println("Yaþ indirimi :"+yasIndirimi);
+		System.out.println("Yaï¿½ indirimi :"+yasIndirimi);
 		indirimliTutar=normalTutar-yasIndirimi;
-		System.out.println("Ýndrimli Tutar :"+indirimliTutar);
+		System.out.println("ï¿½ndrimli Tutar :"+indirimliTutar);
 		
-		gdbIndirimi=indirimliTutar*gdbOraný;
-		System.out.println("Gidiþ Dönüþ Bilet indirimi :"+gdbIndirimi);
+		gdbIndirimi=indirimliTutar*gdbOranï¿½;
+		System.out.println("Gidiï¿½ Dï¿½nï¿½ï¿½ Bilet indirimi :"+gdbIndirimi);
 		
 		toplamTutar=(indirimliTutar-gdbIndirimi)*yolculukTipi;
 		System.out.println("Toplam Tutar :"+toplamTutar);
@@ -64,7 +64,7 @@ public class UcakBileti {
 		
 		}else {
 			
-			System.out.println("Hatalý Veri Girdiniz!"  );
+			System.out.println("Hatalï¿½ Veri Girdiniz!"  );
 		}
 		
 	}
